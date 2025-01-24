@@ -1,0 +1,1 @@
+export const sbccRed = "#991c2d"

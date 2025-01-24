@@ -9,8 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'sbcc-red': "#991c2d"
       },
     },
   },
