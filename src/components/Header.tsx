@@ -3,7 +3,7 @@ import Navigation from "./Navigation";
 
 const Header: React.FC = () => {
     return (
-        <header>
+        <header className="">
             <Banner />
             <Navigation />
         </header>
