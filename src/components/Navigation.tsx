@@ -27,7 +27,7 @@ const Navigation: React.FC = () => {
             <div className="absolute top-0 left-0 w-full h-full bg-sbcc-red -z-10" aria-hidden="true"></div>
             <a href="#" className="flex flex-row items-center space-x-4 z-20">
                 <div className="max-h-[3rem] max-w-[3rem] sm:max-h-[3.75rem] sm:max-w-[3.75rem] lg:max-h-[5rem] lg:max-w-[5rem]">
-                    <Image width={80} height={80} alt="SBCC Logo" src="/logos/sbcc-white.svg" />
+                    <Image width={80} height={80} priority={true} alt="SBCC Logo" src="/logos/sbcc-white.svg" />
                 </div>
                 <div className="h-[4rem] sm:h-[5rem] lg:h-[6.25rem] w-[1px] bg-slate-50" aria-hidden="true"></div>
                 <div className="flex flex-col text-slate-50">
